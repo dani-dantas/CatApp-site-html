@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatApp</title>
+</head>
+<body>
+    <main>
+        <h1>CatApp</h1>
+        <section>
+            <h2>Fotos de Gatos</h2>
+            <p>Ver mais <a target="_blank" href="https://freecatphotoapp.com">fotos de gatos</a> na nossa galeria.</p>
+            <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Um gatinho laranja deitado de costas."></a>
+        </section>
+        <section>
+            <h2>Lista de Gatos</h2>
+            <h3>Coisas de gatos amam:</h3>
+            <ul>
+                <li>catnip</li>
+                <li>ponteiros laser</li>
+                <li>lasanha</li>
+            </ul>
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="Uma fatia de lasanha em um prato.">
+                <figcaption>Gatos <em>amam</em> lasanha.</figcaption>
+            </figure>
+            <h3>Top 3 - Coisas que gatos odeiam:</h3>
+            <ul>
+                <li>tratamento de pulgas</li>
+                <li>trovão</li>
+                <li>outros gatos</li>
+            </ul>
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Cinco gatos olhando ao redor de um campo.">
+                <figcaption>Gatos <strong>odeiam</strong> outros gatos</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Formulário</h2>
+            <form action="https://freecatphotoapp.com/submit-cat-photo">
+                <fieldset>
+                    <legend>O seu gato costuma passar o tempo dentro ou fora de casa?</legend>
+                    <label><input id="dentro" type="radio" name="dentro-fora" value="dentro" checked>Dentro de casa</label>
+                    <label><input id="fora" type="radio" name="dentro-fora" value="fora" checked>Fora de casa</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Qual é a personalidade do seu gato?</legend>
+                    <label><input id="carinhoso" type="checkbox" name="personalidade" value="carinhoso" checked>Carinhoso</label>
+                    <label><input id="preguiçoso" type="checkbox" name="personalidade" value="preguiçoso" checked>Preguiçoso</label>
+                    <label><input id="energético" type="checkbox" name="personalidade" value="energético" checked>Energético</label>
+                </fieldset>
+                <input type="text" name="link" placeholder="Link da foto do seu gato" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright 2024 – Todos os direitos reservados | Política de privacidade</p>
+    </footer>
+</body>
+</html>
